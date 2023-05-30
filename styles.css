@@ -17,9 +17,10 @@ body {
 }
 
 img {
-  width: 250px;
+  width: 200px;
   margin: 0 auto;
-  padding: 5px;
+  padding: 10px;
+  border-radius: 50%;
 }
 
 input {
@@ -43,4 +44,22 @@ button {
   font-size: 1.5rem;
   border-radius: 8px;
   font-family: 'Prompt', sans-serif;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 15px;
+  border-radius: 8px;
+  flex-grow: 1;
+  text-align: center;
+  background-color: #fffdf8;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  font-size: 1.3rem;
 }

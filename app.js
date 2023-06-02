@@ -22,7 +22,11 @@ const listEl = document.getElementById('shopping-list');
 addBtn.addEventListener('click', function () {
   let inputValue = inputBox.value;
 
-  push(shoppingListInDB, inputValue);
+  if (inputBox.value === '') {
+    alert('Please enter a grocery item before adding to cart :)');
+  } else {
+    push(shoppingListInDB, inputValue);
+  }
 
   clearInputFieldEl();
 

@@ -19,15 +19,26 @@
     />
     <link rel="stylesheet" href="./styles.css" />
     <title>My Shopping Cart</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
     <div class="container">
-        <img src="./images//cart.png" alt="Shopping cart logo image">
+      <img src="./images//cart.png" alt="Shopping cart logo image" />
       <input type="text" id="input-field" placeholder="Bread" />
       <button id="add-button">Add to cart</button>
-      <ul id="shopping-list">
-      </ul>
+      <ul id="shopping-list"></ul>
     </div>
+
+    <!-- Add modal here -->
+
+    <!-- <div class="modal" id="alert-modal">
+        <span class="close-btn">&times;</span>
+        <p>Please enter a grocery item to add to the cart :)</p>
+    </div> -->
+
     <script src="./app.js" type="module"></script>
     <script src="./functions.js" type="module"></script>
   </body>

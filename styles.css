@@ -3,8 +3,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Prompt', sans-serif;
-  background-color: rgb(243, 238, 238);
+  background-color: #f3eeee;
   align-content: center;
+  user-select: none;
 }
 
 .container {
@@ -26,7 +27,7 @@ img {
 input {
   border: 0;
   padding: 20px;
-  background-color: rgb(202, 202, 198);
+  background-color: #cacac6;
   text-align: center;
   font-size: 1.5rem;
   border-radius: 8px;
@@ -44,6 +45,12 @@ button {
   font-size: 1.5rem;
   border-radius: 8px;
   font-family: 'Prompt', sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(246, 207, 64);
+    font-size: 1.65rem;
 }
 
 ul {
@@ -62,4 +69,20 @@ ul li {
   background-color: #fffdf8;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
   font-size: 1.3rem;
+  cursor: pointer;
+
 }
+
+ul li:hover {
+    background-color: #f55555;
+}
+/* 
+.modal {
+    position: fixed;
+    background-color: #f55555;
+    height: auto;
+    z-index: 1;
+    left: 0;
+    top: 0;
+
+} */
